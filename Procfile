@@ -1,2 +1,1 @@
-web: python app.py $PORT
-bot: python app.py
+web: python app.py -p $PORT
