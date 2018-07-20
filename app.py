@@ -41,6 +41,4 @@ def handle_message(event):
 
 
 if __name__ == "__main__":
-    port_number = server.listen(process.env.PORT || 3000)
-    app.listen(port_number);
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',port=30000)
